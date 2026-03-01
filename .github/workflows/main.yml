@@ -59,7 +59,8 @@ test_intergation:
     - name: install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Run playwright tests
-      run: npx playwright test 
+      run: npx playwright test
+          
   deploy:
     name: Deploy (mock)
     runs-on: ubuntu-latest
